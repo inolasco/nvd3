@@ -26,7 +26,7 @@ nv.models.multiBar = function() {
     , yDomain
     , xRange
     , yRange
-    , groupSpacing = 0.1
+    , groupSpacing = 0.3
     , dispatch = d3.dispatch('chartClick', 'elementClick', 'elementDblClick', 'elementMouseover', 'elementMouseout')
     ;
 
